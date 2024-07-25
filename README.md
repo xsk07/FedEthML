@@ -1,6 +1,6 @@
 # FedEthML
 
-### Blockchain project - Sapienza University of Rome
+### Blockchain and Distributed Ledger Technologies project - Sapienza Università di Roma
 
 Our Dapp, FedEthML, shows how the blockchain technology can be adopted to address
 two of the main issues of Federated Learning. The first is centralization: the central
