@@ -1,6 +1,6 @@
 # FedEthML
 
-### Blockchain and Distributed Ledger Technologies project - Sapienza Università di Roma
+### Blockchain and Distributed Ledger Technologies - Sapienza Università di Roma
 
 Our Dapp, FedEthML, shows how the blockchain technology can be adopted to address
 two of the main issues of Federated Learning. The first is centralization: the central
@@ -23,16 +23,28 @@ If it's the first time you open this project, run: 'npm install' to install all 
 'npx hardhat node' to spin up a local developement blockchain.
 
 In another terminal:
+```bash
+npx hardhat compile
+````
 
-'npx hardhat compile' to compile the contract inside the contracts folder.
+to compile the contract inside the contracts folder.
 
-'npx hardhat run --network hardhat ./scripts/deploy.js' to deploy the smart contract.
+```bash
+npx hardhat run --network hardhat ./scripts/deploy.js
+````
+to deploy the smart contract.
 
-'python ./scripts/python/number_oracle.py' starts and oracle sending random numbers to the smart contract (they are needed for some stuff).
+```bash
+python ./scripts/python/number_oracle.py
+````
+starts and oracle sending random numbers to the smart contract (they are needed for some stuff).
 
 In another terminal:
 
-'npm run dev' starts the web app.
+```bash
+npm run dev
+````
+starts the web app.
 
 ------
 IMPORTANT: This project uses IPFS from Pinata. To correctly create and visualize the tasks you need to correctly place your Pinata credentials in the ipfsFunctions.jsx file.
