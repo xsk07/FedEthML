@@ -47,7 +47,7 @@ npm run dev
 starts the web app.
 
 ------
-IMPORTANT: This project uses IPFS from Pinata. To correctly create and visualize the tasks you need to correctly place your Pinata credentials in the ipfsFunctions.jsx file.
+IMPORTANT: This project uses IPFS from [Pinata](https://www.pinata.cloud/). To correctly create and visualize the tasks you need to correctly place your Pinata credentials in the ipfsFunctions.jsx file.
 
 ------
 
